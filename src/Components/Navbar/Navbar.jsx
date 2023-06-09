@@ -53,7 +53,7 @@ const Navbar = () => {
   return (
     <nav 
     className={`${
-      scrolled ? "bg-white shadow-navbar " : "bg-white"
+      scrolled ? "bg-white shadow-navbar " : "bg-white border"
     } w-full mx-auto px-5 sm:px-16 xl:px-0 fixed top-0 z-20`}
     >
       <div className={`w-full xl:max-w-[1280px] mx-auto bg-white    py-4  xl:px-0 ${styles.flexBetween}`} >
@@ -69,11 +69,11 @@ const Navbar = () => {
             {NavLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`cursor-pointer font-workSans text-[16px] ${
+                className={`cursor-pointer  font-workSans text-[16px] ${
                   active === nav.title ? "text-lightGrey font-bold" : "text-lightGrey"
                 } 
                                 ${
-                                  index === NavLinks.length - 1
+                                  index === NavLinks.length  - 1
                                     ? "mr-0"
                                     : "mr-[40px] sm:mr-[50px] text-[15px] hover:font-bold lg:text-[17px] lg:leading-[20px]  md:mr-[70px] "
                                 }`}
