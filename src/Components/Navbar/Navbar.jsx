@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from "react";
+import styles from "../../styles";
+import {hamburger, logo, search} from "../../Assets"
 
-
+import {NavLinks} from "../../Constants"
 
 
 const Navbar = () => {
@@ -54,12 +56,12 @@ const Navbar = () => {
       scrolled ? "bg-white shadow-navbar " : "bg-white"
     } w-full mx-auto px-5 sm:px-16 xl:px-0 fixed top-0 z-20`}
     >
-      <div className={`w-full xl:max-w-[1280px] mx-auto bg-white   py-2  xl:px-0 ${}`} >
+      <div className={`w-full xl:max-w-[1280px] mx-auto bg-white    py-4  xl:px-0 ${styles.flexBetween}`} >
         <a href="#" className="logo ">
           <img
             src={logo}
-            alt="olive"
-            className="w-[50px] object-contain md:w-[60px] cursor-pointer "
+            alt="eco"
+            className="w-[64px] object-contain md:w-[74px] cursor-pointer "
           />
         </a>
         <div className={`navbar-links-desk sm:flex items-center justify-end flex-row hidden  flex-1`}>
@@ -67,8 +69,8 @@ const Navbar = () => {
             {NavLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`cursor-pointer font-lato text-[16px] ${
-                  active === nav.title ? "text-green font-bold" : "text-black"
+                className={`cursor-pointer font-workSans text-[16px] ${
+                  active === nav.title ? "text-lightGrey font-bold" : "text-lightGrey"
                 } 
                                 ${
                                   index === NavLinks.length - 1
@@ -84,16 +86,27 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
+
+
+
+
         <div
           className={`navbar-links-mobile sm:hidden  flex-1  z-[2] ${styles.flexEnd}`}
           ref={ref}
         >
-          <div
+        <div className={`${styles.flexCenter} flex-row gap-6 `}>
+        <div
             className="cursor-pointer"
             onClick={() => setToggle(true)}
           >
-             <RiMenu3Line color="#000" size={26}/>
+             {/* <RiMenu3Line color="#000" size={26}/> */}
+             <img src={hamburger} alt="" />
             </div>
+            <div>
+              <img src={search} alt="" />
+            </div>
+        </div>
+
           <div
             className={`${
               !toggle ? "hidden" : "flex"
@@ -104,19 +117,21 @@ const Navbar = () => {
             className="flex  items-end justify-end w-full mb-7 cursor-pointer"
             onClick={() => setToggle(!toggle)}
           >
-            <img src={close} alt="" className="w-[24px]" />  
+            {/* <img src={close} alt="" className="w-[24px]" />   */}
             </div>
               {NavLinks.map((nav, index) => (
                 <div className="flex flex-row items-center justify-between w-full border-b pb-5 "><li
                   key={nav.id}
-                  className={`cursor-pointer font-bold font-lato text-[16px] ${active === nav.title ? "text-black" : "text-white"}
+                  className={`cursor-pointer font-bold font-workSans text-[16px] ${active === nav.title ? "text-black" : "text-white"}
                         ${index === NavLinks.length   ? "mr-0" : "mr-10"} `}
                   onClick={() => setToggle(false)}
                 >
                   <a href={`#${nav.id}`} className="">
                     {nav.title}
                   </a>
-                </li><img src={arrowRight} alt="" /></div>
+                </li>
+                {/* <img src={arrowRight} alt="" /> */}
+                </div>
               ))}
             </ul>
           </div>

@@ -1,16 +1,16 @@
 const styles  = {
     boxWidth: "xl:max-w-[1280px] w-full mx-auto",
 
-    heading1: "font-lato font-bold w-full text-[34px] ss:text-[45px] leading-[50px] ss:leading-[55px] lg:text-[53px] xl:text-[64px] md:leading-[115.2px] xl:w-[958px] text-white tracking-[1.92px] ",
+    heading1: "font-workSans font-bold w-full text-[34px] ss:text-[45px] leading-[50px] ss:leading-[55px] lg:text-[53px] xl:text-[64px] md:leading-[115.2px] xl:w-[958px] text-white tracking-[1.92px] ",
     headingg: " text-white mb-3  sm:w-[600px]  lg:text-[56px]",
-    heading2: "font-lato font-bold text-[28px] w-full lg:text-[43px] xl:leading-[76.8px] tracking-[1.92px] ",
-    heading3: "font-lato font-bold w-full xl:text-[20px] xl:leading-[25px]  ",
+    heading2: "font-workSans font-bold text-[28px] w-full lg:text-[43px] xl:leading-[76.8px] tracking-[1.92px] ",
+    heading3: "font-workSans font-bold w-full xl:text-[20px] xl:leading-[25px]  ",
     heading4: "font-poppins font-bold w-full xl:text-[24px] xl:leading-[36px] text-black  ",
     heading6: "font-poppins font-bold w-full xl:text-[16px] xl:leading-[28px] text-secondary  ",
 
     
-    paragraph: "font-lato font-normal text-[16px] lg:text-[26px] xl:text-[28px]  leading-[25px] md:leading-[43.2px]",
-    paragraphSmall: "font-lato font-normal lg:text-[16px]  lg:leading-[28.8px]",
+    paragraph: "font-workSans font-normal text-[16px] lg:text-[26px] xl:text-[28px]  leading-[25px] md:leading-[43.2px]",
+    paragraphSmall: "font-workSans font-normal lg:text-[16px]  lg:leading-[28.8px]",
 
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
