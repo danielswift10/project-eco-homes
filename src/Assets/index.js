@@ -4,6 +4,9 @@ import logo from "./icons/logo.svg"
 
 
 
+//images
+import heroPattern from  "./images/hero-pattern.png"
+
 
 
 
@@ -18,4 +21,5 @@ export {
     hamburger,
     search,
     logo,
+    heroPattern,
 }
