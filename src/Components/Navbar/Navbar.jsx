@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from "react";
-import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
-import {NavLinks} from "../../Constants"
-import styles from "../../style";
-import { arrowRight, close, logo } from "../../Assets";
+
+
+
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -47,13 +46,15 @@ const Navbar = () => {
     };
   });
 
+
+
   return (
     <nav 
     className={`${
       scrolled ? "bg-white shadow-navbar " : "bg-white"
     } w-full mx-auto px-5 sm:px-16 xl:px-0 fixed top-0 z-20`}
     >
-      <div className={`w-full xl:max-w-[1280px] mx-auto bg-white   py-2  xl:px-0 ${styles.flexBetween}`} >
+      <div className={`w-full xl:max-w-[1280px] mx-auto bg-white   py-2  xl:px-0 ${}`} >
         <a href="#" className="logo ">
           <img
             src={logo}
