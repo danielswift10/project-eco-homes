@@ -5,11 +5,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        green: "#1D5D20",
+        darkGrey: "#262626",
+        red: "#F2380F",
+        lightGrey: "#6E6E6E;",
+        green: "#6E8C03",
         white: "#ffffff",
-        placeHolder: "#A3AAC2",
-        required: "#C40303",
-        contactBg: "#808080",
+        secondary: "#FEFEFE",
+        lightBlack: "#E9E9E9",
+        black: "#FEFEFE",
+        
       },
       fontFamily: {
         workSans: ["Work Sans", "sans-serif"],
