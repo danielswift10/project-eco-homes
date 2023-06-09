@@ -9,7 +9,7 @@ const styles  = {
     heading6: "font-poppins font-bold w-full xl:text-[16px] xl:leading-[28px] text-secondary  ",
 
     
-    heroParagraph: "font-workSans font-normal text-[14px] lg:text-[17px] xl:text-[20px]  leading-[22px] text-lightBlack md:leading-[43.2px]",
+    heroParagraph: "font-workSans font-normal text-[13px] lg:text-[17px] xl:text-[20px]  leading-[20px] text-lightBlack md:leading-[43.2px]",
     paragraph: "font-workSans font-normal text-[16px] lg:text-[26px] xl:text-[28px]  leading-[25px] md:leading-[43.2px]",
     paragraphSmall: "font-workSans font-normal lg:text-[16px]  lg:leading-[28.8px]",
 
@@ -20,7 +20,7 @@ const styles  = {
     flexEnd: "flex justify-end items-center",
     flexWrap: "flex flex-wrap justify-center",
 
-    paddingX: "ss:px-16  px-5 xl:px-0",
+    paddingX: "ss:px-16  px-4 xl:px-0",
     paddingY: "sm:py-16 py-6",
     padding: "sm:px-16 px-7 xl:px-0  sm:py-12  py-4",
     padding2: "sm:px-16 px-7 xl:px-0 ",
