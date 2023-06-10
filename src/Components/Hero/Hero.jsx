@@ -11,8 +11,8 @@ const Hero = () => {
                 <div className="text">
                 <div className={`py-[]   ${styles.paddingX} ${styles.flexCenter} sm:pt-[] md:pt-[] md:pb-[100px] flex-col text-center`}>
                     <h1 className={`${styles.heading1} mb-4`}>Find Your Sustainable Dream Home Here</h1>
-                    <p className={`${styles.heroParagraph}  md:text-[23px] text-white xs:w-[410px] mb-7 ss:w-[500px]  sm:w-[550px]  md:w-[800px] `}>Reduce the negative impact that daily activities have on your environment with our eco-friendly homes which are designed to be energy-efficient for a sustainable living </p>
-                    <Button type={"button"} title={"Explore"} classname={`${'bg-green text-white rounded-[6px] py-3 px-5 text-[16px] text-secondary font-semibold'} `}/>
+                    <p className={`${styles.heroParagraph}  md:text-[23px] text-white xs:w-[420px] mb-7 ss:w-[500px]  sm:w-[550px]  md:w-[800px] `}>Reduce the negative impact that daily activities have on your environment with our eco-friendly homes which are designed to be energy-efficient for a sustainable living </p>
+                    <Button type={"button"} title={"Explore"} classname={`${'bg-green text-white hover:scale-[1.03] cursor-pointer rounded-[6px] py-3 px-5 text-[16px] text-secondary font-semibold'} `}/>
                 </div>
                 </div>
                 <div className="image ">

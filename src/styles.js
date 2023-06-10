@@ -1,7 +1,7 @@
 const styles  = {
     boxWidth: "xl:max-w-[1280px] w-full mx-auto",
 
-    heading1: "font-workSans font-semibold  text-[28px] ss:text-[35px] leading-[34px] tracking-[0.005em]  ss:leading-[55px] lg:text-[43px] xl:text-[56px] xl:leading-[66px] md:leading-[115.2px] xl:w-[640px] text-secondary  ",
+    heading1: "font-workSans font-semibold xs:text-[32px]  text-[28px] ss:text-[35px] leading-[34px] tracking-[0.005em]  ss:leading-[55px] lg:text-[43px] xl:text-[56px] xl:leading-[66px] md:leading-[115.2px] xl:w-[640px] text-secondary  ",
     headingg: " text-white mb-3  sm:w-[600px]  lg:text-[56px]",
     heading2: "font-workSans font-bold text-[28px] w-full lg:text-[43px] xl:leading-[76.8px] tracking-[1.92px] ",
     heading3: "font-workSans font-bold w-full xl:text-[20px] xl:leading-[25px]  ",
@@ -9,7 +9,7 @@ const styles  = {
     heading6: "font-poppins font-bold w-full xl:text-[16px] xl:leading-[28px] text-secondary  ",
 
     
-    heroParagraph: "font-workSans font-normal text-[13px] lg:text-[17px] xl:text-[20px]  leading-[20px] text-lightBlack md:leading-[43.2px]",
+    heroParagraph: "font-workSans font-normal text-[14px] lg:text-[17px] xl:text-[20px]  leading-[20px] text-lightBlack md:leading-[43.2px]",
     paragraph: "font-workSans font-normal text-[16px] lg:text-[26px] xl:text-[28px]  leading-[25px] md:leading-[43.2px]",
     paragraphSmall: "font-workSans font-normal lg:text-[16px]  lg:leading-[28.8px]",
 

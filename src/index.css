@@ -24,7 +24,7 @@ body{
 .hero{
   background-image: url("./Assets/images/hero-pattern.png");
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: auto;
   background-position: top 100px right;
 }
 
